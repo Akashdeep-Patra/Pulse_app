@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="1dp"
+        android:background="@drawable/roundmask"
+        android:elevation="10dp"
+        android:padding="@dimen/padding_adapter"
+        android:src="@drawable/ic_android_black_24dp" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="160dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/roundmask"
+        android:elevation="10dp"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_adapter">
+
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/background_dark"
+            android:textSize="@dimen/text_adapter_size" />
+
+        <TextView
+            android:id="@+id/category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/background_dark"
+            android:textSize="@dimen/text_adapter_size" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/background_dark"
+            android:textSize="@dimen/text_adapter_size" />
+
+        <TextView
+            android:id="@+id/mrp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/background_dark"
+            android:textSize="@dimen/text_adapter_size" />
+
+    </LinearLayout>
+
+</LinearLayout>
